@@ -11,26 +11,18 @@ Clone the repository to your local machine:
 
 sh
 Copy code
-git clone https://github.com/your-repo/data-cleaning-script.git
+git clone (https://github.com/Tittua/python_ai.git)
 cd data-cleaning-script
-Step 2: Set Up a Virtual Environment
-Set up and activate a virtual environment:
 
-sh
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Step 3: Install Dependencies
+Step 2: Install Dependencies
 Install the required libraries:
 
-sh
 Copy code
 pip install requests pandas spacy
-Step 4: Download spaCy Model
+Step 3: Download spaCy Model
 Download the en_core_web_lg model:
 
-sh
-Copy code
+
 python -m spacy download en_core_web_lg
 Usage
 Step 1: Run the Script
